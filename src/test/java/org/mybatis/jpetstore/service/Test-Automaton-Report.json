@@ -1,0 +1,42 @@
+﻿[
+  {
+    "Status": "info_outline",
+    "Timestamp": "2020-01-22T11:18:51",
+    "Details": "Verify title of page ispstp"
+  },
+  {
+    "Status": "info_outline",
+    "Timestamp": "2020-01-22T11:18:51",
+    "Details": "Click onFirstName"
+  },
+  {
+    "Status": "check_circle",
+    "Timestamp": "2020-01-22T11:18:51",
+    "Details": "FirstNameisEnabled"
+  },
+  {
+    "Status": "info_outline",
+    "Timestamp": "2020-01-22T11:18:51",
+    "Details": "Click onLastName"
+  },
+  {
+    "Status": "check_circle",
+    "Timestamp": "2020-01-22T11:18:51",
+    "Details": "LastNameisEnabled"
+  },
+  {
+    "Status": "info_outline",
+    "Timestamp": "2020-01-22T11:18:51",
+    "Details": "Click onMobNum"
+  },
+  {
+    "Status": "check_circle",
+    "Timestamp": "2020-01-22T11:18:51",
+    "Details": "MobNumisEnabled"
+  },
+  {
+    "Status": "check_circle",
+    "Timestamp": "2020-01-22T11:18:51",
+    "Details": "Test passed"
+  }
+]
