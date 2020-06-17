@@ -9,7 +9,7 @@ resources:
 - repo: self
 
 variables:
-  tag: '$(Build.BuildId)'
+  tag: docker build -t jpetstotre
 
 stages:
 - stage: Build
@@ -20,7 +20,7 @@ stages:
     pool:
       vmImage: 'ubuntu-latest'
     steps:
-    - task: Docker@2
+    - task: docker build -t jpetstore
       displayName: Build an image
       inputs:
         command: build
